@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #FFF5F0; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    flex-grow: 1;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    /* background-color: rgb(255, 209, 209); */
+}

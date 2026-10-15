@@ -4,6 +4,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+:root{
+    --main-font-family: 'Inter' , sans-serif;
+    --background-color: #fff5f0;
+    --orange-color: #FF7931;
+    --black-color: #1A0B00;
+    --black_shadow-color: #451D00;
+    --white-color: #FFFFFF;
 }
 
 body{
@@ -11,7 +21,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-
+    font-family: var(--main-font-family);
+    background-color: var(--background-color);
 }
 
 main{
@@ -22,4 +33,9 @@ main{
     max-width: 1240px;
     margin: 0 auto;
     /* background-color: rgb(255, 209, 209); */
+}
+
+.header{
+    box-shadow:0 2 20px var(--black_shadow-color) ;
+
 }
